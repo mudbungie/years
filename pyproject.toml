@@ -1,7 +1,13 @@
 [project]
 name = "years"
 version = "0.1.0"
-description = "Add your description here"
+description = "Podcast audio analysis application"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.118.0",
+    "httpx>=0.28.1",
+    "oracledb>=3.3.0",
+    "pytest>=8.4.2",
+    "uvicorn>=0.37.0",
+]
